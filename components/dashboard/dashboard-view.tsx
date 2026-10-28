@@ -50,8 +50,8 @@ export function DashboardView() {
     <div className="mx-auto flex max-w-7xl flex-col gap-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight text-balance">Resumen del mes</h1>
-          <p className="text-sm text-muted-foreground">Tu hoja de presupuesto, siempre al día.</p>
+          <h1 className="text-2xl font-semibold tracking-tight text-balance">Finanzas</h1>
+          <p className="text-sm text-muted-foreground">Resumen del mes: tu hoja de presupuesto, siempre al día.</p>
         </div>
         <MonthSwitcher mes={mes} maxMes={currentMonth} onChange={setMes} />
       </div>
