@@ -9,7 +9,7 @@ function Brand() {
       <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
         <Wallet className="size-5" aria-hidden="true" />
       </span>
-      <span className="text-base font-semibold tracking-tight">Mis Finanzas</span>
+      <span className="text-base font-semibold tracking-tight">Bloom</span>
     </div>
   )
 }
